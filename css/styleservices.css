@@ -3,4 +3,10 @@ body {
 
 }
 
-
+ul {
+	width: 15%;
+	margin: auto;
+}
+h1 {
+	text-align: center;
+}

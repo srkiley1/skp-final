@@ -231,3 +231,7 @@ ul.social p {
 .row h1 {
   font-size: 12px;
 }
+.btn {
+     background-color: #352719;
+     color: white;
+}
