@@ -228,3 +228,6 @@ ul.social p {
 .content-footer {
     border-top: solid black;
 }
+.row h1 {
+  font-size: 12px;
+}
