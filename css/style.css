@@ -1,0 +1,230 @@
+
+  body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #E6DAC1;
+    border: 4px solid black;
+    margin: 0 auto;
+ 
+}
+     /**masthead**/
+.masthead-intro,
+.masthead-heading {
+    text-align: center;
+    text-weight: bold;
+    color: white;
+}
+.masthead {
+    background-image: url('https://unsplash.imgix.net/photo-1422310299561-e3b8b45d859f?fit=crop&fm=jpg&h=700&q=75&w=1050');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid black;
+    text-align: center;
+    padding: -10em;
+    height:  750px;
+    position:  225px 225px;
+}
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    font-weight: bold;
+} 
+.masthead-heading {
+    /* Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+   }
+/***.content-footer,
+.introduction-section**/
+
+.content-footer,
+.introduction-section
+ {
+    text-align: center;
+    background-color:	#E6DAC1;
+    border-bottom:solid black;
+    padding: 1em;
+}
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+.content-footer > p {
+  color: black;
+}
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+  .section > h1 {
+    margin-top: 2em; 
+}
+@media only screen and (max-width:  500px) {
+  .masthead {
+    padding: 3em 0
+  }
+  .masthead-heading {
+    font-size: 3em;
+  
+  }
+ }
+/**Miscellaneous**/
+li {
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+
+
+}
+.karma {
+
+    background-color:  #E6DAC1;
+    border:solid black;
+}
+.container h2 {
+    text-align: center;
+}  
+h5 {
+    margin-left: 475px;
+    font-size: 20px;
+    margin-top: 200px;
+}
+.Projects h5{
+    margin-left: 500px;
+    font-size: 15px;
+    margin-top: -20px;
+  }
+ .karma {
+    text-align: center;
+ } 
+ .karma2 {
+    display: inline-block;
+ }
+
+nav.navbar.navbar-default {
+    background-color: #E6DAC1;
+}
+
+
+
+.introduction-section {
+    margin-top: -200px;
+    text-align:center;
+    height: 500px;
+
+}
+.active {
+    color: black;
+}
+.container {
+    text-align: center;
+    color: black;
+    background-color: #E6DAC1;
+    height:  400px;
+}
+a {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding:  15px;
+}
+ul.nav.nav-pills {
+    text-align: center;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #352719;
+    text-align: center; 
+}
+p {
+    font-size: 12px;
+    display:inline-block;
+ }
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+.container.text-center h2 {
+    padding-bottom: 60px;
+    margin-top: 50px;
+    height: 500; 
+}
+    .content-footer {
+     height:  400px;
+}
+ul.social {
+    height: 100px;
+    padding-left: 0px;
+
+}
+ul.social p {
+    margin-bottom: 9px;
+    margin-top: 9px;
+ 
+
+}
+.row {
+    border-top: solid black;
+    text-align: center;
+}
+.i {
+    background-color: brown;
+}
+#intro {
+    display: inline-block;
+}
+.container.text-center {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 0;
+}
+#container {
+    display: inline-block;
+    margin: 0 auto;
+}
+@media only screen and (max-width:  480px) {
+  .masthead {
+    padding: 3em 0
+  }
+  .masthead-heading {
+    font-size: 3em;
+  
+  }
+ }
+.introduction-section {
+    text-align: center;
+}
+.introduction-section h1 {
+    margin-top: 50px;
+}
+.social .row h1 {
+    margin-top: 55px;
+    font-size: 12px;
+}
+.content-footer {
+    border-top: solid black;
+}
