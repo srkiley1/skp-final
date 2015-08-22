@@ -5,3 +5,9 @@ body {
 	background-color:  #E6DAC1;
 
 }
+.col-md-4 p{
+	margin-left: -319px;
+}
+.btn {
+	background-color: #E6dac1;
+}

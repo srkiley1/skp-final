@@ -17,14 +17,16 @@
     color: white;
 }
 .masthead {
-    background-image: url('https://unsplash.imgix.net/photo-1422310299561-e3b8b45d859f?fit=crop&fm=jpg&h=700&q=75&w=1050');
+    background-image: url(../images/photo-1422310299561-e3b8b45d859f.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: solid black;
     text-align: center;
     padding: -10em;
-    height:  750px;
+    height:  650px;
+    /*height:   auto;*/
     position:  225px 225px;
+    max-width:  100%;
 }
 .masthead-intro {
     /* Layout Declarations */
@@ -82,7 +84,7 @@
   .section > h1 {
     margin-top: 2em; 
 }
-@media only screen and (max-width:  500px) {
+@media only screen and (max-width:  480px) {
   .masthead {
     padding: 3em 0
   }
@@ -206,7 +208,7 @@ ul.social p {
     display: inline-block;
     margin: 0 auto;
 }
-@media only screen and (max-width:  480px) {
+@media only screen and (max-width:  340px) {
   .masthead {
     padding: 3em 0
   }
@@ -232,4 +234,7 @@ ul.social p {
   font-size: 12px;
   margin-top: 200px
 }
-
+.btn {
+     background-color: #352719;
+     color: white;
+}
