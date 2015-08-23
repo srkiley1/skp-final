@@ -23,10 +23,11 @@
     border: solid black;
     text-align: center;
     padding: -10em;
-    height:  650px;
+    height:  60.625em;
     /*height:   auto;*/
-    position:  225px 225px;
+    position:  525px 525px;
     max-width:  100%;
+  /*  margin-left:   38em;*/
 }
 .masthead-intro {
     /* Layout Declarations */
@@ -165,7 +166,7 @@ ul.nav.nav-pills {
 p {
     font-size: 12px;
     display:inline-block;
-    margin-left: 50%;
+    margin-left: 0%;
  }
 .center-pills {
     display: flex;
@@ -209,7 +210,7 @@ ul.social p {
     display: inline-block;
     margin: 0 auto;
 }
-@media only screen and (max-width:  340px) {
+@media only screen and (max-width:  480px) {
   .masthead {
     padding: 3em 0
   }
@@ -222,7 +223,7 @@ ul.social p {
     text-align: center;
 }
 .introduction-section h1 {
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 .social .row h1 {
     margin-top: 55px;
@@ -238,4 +239,10 @@ ul.social p {
 .btn {
      background-color: #352719;
      color: white;
+}
+/*p.masthead-intro {
+    margin-left: -20em;
+}
+h2.masthead-heading {
+    margin-left: -13em;
 }
