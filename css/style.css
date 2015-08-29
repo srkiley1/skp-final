@@ -23,9 +23,9 @@
     border: solid black;
     text-align: center;
     padding: -10em;
-    height:  60.625em;
+    height:  30.625em;
     /*height:   auto;*/
-    position:  525px 525px;
+    position:  225px 225px;
    /* max-width:  100%;
   /*  margin-left:   38em;*/
 }
@@ -187,7 +187,7 @@ ul.social {
 }
 ul.social p {
     margin-bottom: 9px;
-    margin-top: 9px;
+    margin-top: 19px;
  
 
 }
@@ -231,10 +231,11 @@ ul.social p {
 }
 .content-footer {
     border-top: solid black;
+    margin-top: 3.125em
 }
 .row h1 {
   font-size: 12px;
-  margin-top: 20px
+  margin-top: 3.125em;
 }
 .btn {
      background-color: #352719;
@@ -245,4 +246,7 @@ ul.social p {
 }
 h2.masthead-heading {
     margin-left: -13em;
+}*/
+.row {
+    width: 1440px;
 }
